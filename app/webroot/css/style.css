@@ -1,0 +1,227 @@
+@charset 'UTF-8';
+/*
+ * jQuery File Upload Plugin CSS Example 1.0
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2012, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+body {
+	font:12px Verdana, Geneva, sans-serif;
+	margin:0;
+	padding:0;
+	background:url("../img/body-bg.jpg") repeat;
+}
+html, body {
+       height: 100%;
+ }
+.outer {
+	width:100%;
+	float:left;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px 0px -65px 0px;
+}
+/*header-styles*/
+.header { 
+	width:100%; 
+	float:left;
+	height:162px;
+	overflow:hidden;
+	padding-top:20px;
+	background:url("../img/outer-bg-repeat.jpg") repeat-x;
+}
+.logo { float:left; padding:0 0 27px 20px }
+a img { border:0; }
+.topnavigation {
+	width:100%;
+	float:left;
+	background-color:#ff890b;
+	height:30px
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.topnavigation ul li {
+	padding:0 20px 0;
+	background:url("../img/nav-separator.gif") no-repeat right;
+	float:left;
+}
+.topnavigation ul li.nav-active, .topnavigation ul li:hover { background-repeat:repeat-x; }
+.topnavigation ul li a { 
+	color:#FFF; 
+	text-decoration:none;
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+	height:30px;
+	line-height:30px
+}
+.topnavigation ul ul {
+	width:170px;
+	float:left;
+	background-color:#5398d4;
+	position:absolute;
+	left:-9999px;
+	top:182px;
+	border-bottom:1px solid #c68e4d
+}
+.topnavigation ul li li, .topnavigation ul li li a { background:none; }
+
+.topnavigation ul li li { padding:0; width:170px; }
+.topnavigation ul li li a { 
+	font-size:13px; 
+	font-weight:normal;
+	float:left;
+	width:150px;
+	padding:0 0 0 20px;
+	border-top:1px solid #c68e4d
+}
+.topnavigation ul li li a:hover { background-color:#ff890b; }
+#client-services:hover ul { left:0; }
+#production:hover ul { left:152px; }
+#billing:hover ul { left:277px; }
+/*login*/
+.login-area {
+	width:100%;
+	float:left;
+	padding-top:122px;
+}
+.login {
+	width:300px;
+	height:140px;
+	margin:0 auto;
+	border:1px solid #ff890b;
+	padding-top:10px;
+	background-color:#FFF
+}
+.login div {
+	width:300px;
+	float:left;
+	padding-bottom:15px;
+}
+.login div.message-area {
+	height:20px;
+	text-align:center;
+	padding-bottom:0;
+	font-size:11px
+}
+.login div label { 
+	width:100px;
+	float:left;
+	padding-right:10px;
+	text-align:right;
+}
+.login-input, .input-box, select, textarea {
+	width:158px;
+	height:20px;
+	line-height:20px;
+	margin:0;
+	padding:0;
+	border:1px solid #c9cdd0;
+	border-left-width:2px;
+	border-top-width:2px;
+	border-radius:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px
+}
+/*footer styles*/
+.footer {
+	float:left;
+	width:100%;
+	height:55px;
+	background:url("../img/footer-bg.gif") repeat-x;
+	text-align:center;
+	color:#525457;
+	font-size:11px;
+	padding-top:10px;
+	line-height:20px
+}
+.footer a { color:#525457; text-decoration:none }
+/*content area styles*/
+.content-area { 
+	width:100%; 
+	float:left;
+	padding-top:17px 
+}
+.content-inner {
+	width:97%;
+	margin:0 auto
+}
+.content {
+	width:96%;
+	float:left;
+	background-color:#FFF;
+	padding:20px 2% 100px ;
+}
+h1 {
+	font-size:20px;
+	margin:0;
+	padding:0 0 20px 0;
+	color:#ff890b;
+}
+h2 {
+	font-size:15px;
+	margin:0;
+	padding:0 0 20px 0;
+	color:#ff890b;
+}
+
+.column1 {float:left; }
+.column2 { float:right; }
+.column1, .column2 { 
+	border:1px solid #5298d3; 
+	width:47%; 
+	padding:1%;
+	border-radius:4pt
+}
+.addclient li {
+	width:100%;
+	float:left;
+	padding-bottom:10px;
+}
+.addclient li label, .TabbedPanelsContent ul li label { 
+	width:33%; 
+	float:left;
+	text-align:right;
+	padding:2px 2% 0 0;
+}
+.width-70 { width:70px; }
+.TabbedPanelsContent ul { padding:0 2%; width:96%; }
+.TabbedPanelsContent ul li {
+	width:100%;
+	float:left;
+	padding:10px 0 0 ;
+}
+.TabbedPanelsContent ul li span { 
+	width:19%; 
+	float:left; 
+	font-size:11px;
+	padding-bottom:5px 
+}
+select{ width:161px; }
+textarea { 
+	height:60px;
+	line-height:normal;
+	width:224px;
+	padding-left:5px
+}
+.addlient-right-column {
+	height:678px;
+	*height:702px;
+	height:676px \0/;
+}
+.clear { clear:both; }
+
+
+
+ form#fileupload div{
+     padding: 0px !important;
+ }
+ .files-drop-area{ width: 100%; height: 300px; }
